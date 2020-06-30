@@ -41,7 +41,7 @@
        (keyword "#ffe300")
        (const   "#7eff00")
        (comment "#89bbfd")
-       (func    "#007bff")
+       (func    "#00ffff")
        (str     "#ffe300")
        (type    "#ff0000")
        (var     "#ff0000")
