@@ -1,12 +1,12 @@
-
-;;; Neon Blood-theme.el --- Emacs theme with a dark background.
+;;; Neon-Blood-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , Henry W
 
 ;; Author: Henry W
 ;; https://www.github.com/Henryws/Neon-Blood
-;; Version: 1.0
+;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
+;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -28,7 +28,7 @@
 
 ;;; Code:
 
- (deftheme Neon Blood)
+ (deftheme Neon-Blood)
  (let ((class '((class color) (min-colors 89)))
        (fg1 "#ffffff")
        (fg2 "#e8e8e8")
@@ -50,7 +50,7 @@
        (var     "#6800ff")
        (warning "#ff0000"))
    (custom-theme-set-faces
-   'Neon Blood
+   'Neon-Blood
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
         `(font-lock-builtin-face ((,class (:foreground ,builtin))))
         `(font-lock-comment-face ((,class (:foreground ,comment))))
@@ -246,10 +246,10 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'Neon Blood)
+(provide-theme 'Neon-Blood)
 
 ;; Local Variables:
 ;; no-byte-compile: t
 ;; End:
 
-;;; Neon Blood-theme.el ends here
+;;; Neon-Blood-theme.el ends here
