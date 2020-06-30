@@ -21,3 +21,7 @@ wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install
 ```bash
 wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
 ```
+## Install for Xresources
+```bash
+wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Xresources/install.sh | bash
+```
