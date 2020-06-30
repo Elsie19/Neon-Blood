@@ -5,30 +5,30 @@ This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope 
 
 ## Install for Alacritty:
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
 ```
 ## Install for (DOOM)Emacs
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
 ```
 
 ## Install for Gedit
 ```bash
-sudo wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
+sudo -qO- wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
 ```
 ## Install for Gnome Terminal
 ```bash
-wget -O- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
 ```
 ## Install for Termite
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
 ```
 ## Install for (N)Vim
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
 ```
 ## Install for Xresources
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Xresources/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Xresources/install.sh | bash
 ```
