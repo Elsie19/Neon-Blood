@@ -16,7 +16,7 @@ if [[ $arch = v ]]; then
     fi
 else
     cd ~/.config/nvim/colors
-    wget -q https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
+    wget -O Neon-Blood.vim https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
     printf 'Do you want to enable now? '
     read -r yesorno
     if [[ $yesorno = y ]]; then
