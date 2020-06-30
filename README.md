@@ -3,6 +3,9 @@ This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope 
 
 ### [Sreenshots](https://github.com/Henryws/Neon-Blood/blob/master/screenshots/README.md#alacritty)
 
+## Install manually
+Go to the [Files](https://github.com/Henryws/Neon-Blood/tree/master/Files) directory and download the correct theme for your app
+
 ## Install for Alacritty:
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
