@@ -1,15 +1,11 @@
+;;; Neon-Blood-theme.el --- Theme 
 
-
-
-;;; Neon-Blood-theme.el --- Emacs theme with a dark background.
-
-;; Copyright (C) 2014 , Henry W
+;; Copyright (C) 2020 , Henry W
 
 ;; Author: Henry W
-;; https://www.github.com/Henryws/Neon-Blood
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
-;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
+;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
 
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -33,25 +29,24 @@
 
  (deftheme Neon-Blood)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#ffffff")
-       (fg2 "#e8e8e8")
-       (fg3 "#d1d1d1")
-       (fg4 "#bbbbbb")
-       (bg1 "#322b3c")
-       (bg2 "#40394a")
-       (bg3 "#4f4858")
-       (bg4 "#5e5866")
-       (key2 "#54ffff")
-       (key3 "#19e0df")
-       (builtin "#ff00e3")
+       (fg1 "#FFFFFF")
+       (fg2 "#ebebeb")
+       (fg3 "#d6d6d6")
+       (fg4 "#c2c2c2")
+       (bg1 "#322B3C")
+       (bg2 "#423c4c")
+       (bg3 "#534d5b")
+       (bg4 "#635e6b")
+       (builtin "#FF00E3")
        (keyword "#00ffff")
-       (const   "#FF0000")
+       (const   "#007BFF")
        (comment "#89BBFD")
-       (func    "#ffe300")
-       (str     "#ffe300")
-       (type    "#00FFFF")
-       (var     "#00ffff")
-       (warning "#ff0000"))
+       (func    "#FF0000")
+       (str     "#FFE300")
+       (type    "#ff00e3")
+       (var     "#FFE300")
+       (warning "#ff0000")
+       (warning2 "#ff8800"))
    (custom-theme-set-faces
    'Neon-Blood
         `(default ((,class (:background ,bg1 :foreground ,fg1))))
@@ -61,12 +56,13 @@
 	`(font-lock-reference-face ((,class (:foreground ,const))))
 	`(font-lock-constant-face ((,class (:foreground ,const))))
         `(font-lock-doc-face ((,class (:foreground ,comment))))
-        `(font-lock-function-name-face ((,class (:foreground ,func :bold t))))
+        `(font-lock-function-name-face ((,class (:foreground ,func ))))
         `(font-lock-keyword-face ((,class (:bold ,class :foreground ,keyword))))
         `(font-lock-string-face ((,class (:foreground ,str))))
         `(font-lock-type-face ((,class (:foreground ,type ))))
         `(font-lock-variable-name-face ((,class (:foreground ,var))))
         `(font-lock-warning-face ((,class (:foreground ,warning :background ,bg2))))
+        `(term-color-black ((,class (:foreground ,fg2 :background nil))))
         `(region ((,class (:background ,fg1 :foreground ,bg1))))
         `(highlight ((,class (:foreground ,fg3 :background ,bg3))))
 	`(hl-line ((,class (:background  ,bg2))))
@@ -75,7 +71,7 @@
         `(show-paren-match-face ((,class (:background ,warning))))
         `(isearch ((,class (:bold t :foreground ,warning :background ,bg3))))
         `(mode-line ((,class (:box (:line-width 1 :color nil) :bold t :foreground ,fg4 :background ,bg2))))
-        `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,key3 :background ,bg1 :weight normal))))
+        `(mode-line-inactive ((,class (:box (:line-width 1 :color nil :style pressed-button) :foreground ,var :background ,bg1 :weight normal))))
         `(mode-line-buffer-id ((,class (:bold t :foreground ,func :background nil))))
 	`(mode-line-highlight ((,class (:foreground ,keyword :box nil :weight bold))))
         `(mode-line-emphasis ((,class (:foreground ,fg1))))
@@ -110,13 +106,14 @@
 	`(org-verbatim ((,class (:foreground ,fg4))))
         `(org-document-info-keyword ((,class (:foreground ,func))))
 	`(font-latex-bold-face ((,class (:foreground ,type))))
-	`(font-latex-italic-face ((,class (:foreground ,key3 :italic t))))
+	`(font-latex-italic-face ((,class (:foreground ,var :italic t))))
 	`(font-latex-string-face ((,class (:foreground ,str))))
 	`(font-latex-match-reference-keywords ((,class (:foreground ,const))))
 	`(font-latex-match-variable-keywords ((,class (:foreground ,var))))
 	`(ido-only-match ((,class (:foreground ,warning))))
 	`(org-sexp-date ((,class (:foreground ,fg4))))
 	`(ido-first-match ((,class (:foreground ,keyword :bold t))))
+        `(ivy-current-match ((,class (:foreground ,fg3 :inherit highlight :underline t))))
 	`(gnus-header-content ((,class (:foreground ,keyword))))
 	`(gnus-header-from ((,class (:foreground ,var))))
 	`(gnus-header-name ((,class (:foreground ,type))))
@@ -128,7 +125,7 @@
 	`(ffap ((,class (:foreground ,fg4))))
 	`(js2-private-function-call ((,class (:foreground ,const))))
 	`(js2-jsdoc-html-tag-delimiter ((,class (:foreground ,str))))
-	`(js2-jsdoc-html-tag-name ((,class (:foreground ,key2))))
+	`(js2-jsdoc-html-tag-name ((,class (:foreground ,var))))
 	`(js2-external-variable ((,class (:foreground ,type  ))))
         `(js2-function-param ((,class (:foreground ,const))))
         `(js2-jsdoc-value ((,class (:foreground ,str))))
@@ -136,7 +133,7 @@
         `(js3-warning-face ((,class (:underline ,keyword))))
         `(js3-error-face ((,class (:underline ,warning))))
         `(js3-external-variable-face ((,class (:foreground ,var))))
-        `(js3-function-param-face ((,class (:foreground ,key3))))
+        `(js3-function-param-face ((,class (:foreground ,fg2))))
         `(js3-jsdoc-tag-face ((,class (:foreground ,keyword))))
         `(js3-instance-member-face ((,class (:foreground ,const))))
 	`(warning ((,class (:foreground ,warning)))) 
@@ -198,8 +195,8 @@
         `(helm-buffer-size ((,class (:foreground ,fg1 :background ,bg1))))
         `(helm-ff-directory ((,class (:foreground ,func :background ,bg1 :weight bold))))
         `(helm-ff-file ((,class (:foreground ,fg1 :background ,bg1 :weight normal))))
-        `(helm-ff-executable ((,class (:foreground ,key2 :background ,bg1 :weight normal))))
-        `(helm-ff-invalid-symlink ((,class (:foreground ,key3 :background ,bg1 :weight bold))))
+        `(helm-ff-executable ((,class (:foreground ,var :background ,bg1 :weight normal))))
+        `(helm-ff-invalid-symlink ((,class (:foreground ,warning2 :background ,bg1 :weight bold))))
         `(helm-ff-symlink ((,class (:foreground ,keyword :background ,bg1 :weight bold))))
         `(helm-ff-prefix ((,class (:foreground ,bg1 :background ,keyword :weight normal))))
         `(helm-grep-cmd-line ((,class (:foreground ,fg1 :background ,bg1))))
@@ -212,7 +209,7 @@
         `(helm-source-go-package-godoc-description ((,class (:foreground ,str))))
         `(helm-bookmark-w3m ((,class (:foreground ,type))))
         `(company-echo-common ((,class (:foreground ,bg1 :background ,fg1))))
-        `(company-preview ((,class (:background ,bg1 :foreground ,key2))))
+        `(company-preview ((,class (:background ,bg1 :foreground ,var))))
         `(company-preview-common ((,class (:foreground ,bg2 :foreground ,fg3))))
         `(company-preview-search ((,class (:foreground ,type :background ,bg1))))
         `(company-scrollbar-bg ((,class (:background ,bg3))))
@@ -240,7 +237,7 @@
         `(jde-java-font-lock-public-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-private-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-constant-face ((t (:foreground ,const))))
-        `(jde-java-font-lock-modifier-face ((t (:foreground ,key3))))
+        `(jde-java-font-lock-modifier-face ((t (:foreground ,fg2))))
         `(jde-jave-font-lock-protected-face ((t (:foreground ,keyword))))
         `(jde-java-font-lock-number-face ((t (:foreground ,var))))))
 
@@ -256,4 +253,3 @@
 ;; End:
 
 ;;; Neon-Blood-theme.el ends here
-
