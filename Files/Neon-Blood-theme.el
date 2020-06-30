@@ -1,3 +1,6 @@
+
+
+
 ;;; Neon-Blood-theme.el --- Emacs theme with a dark background.
 
 ;; Copyright (C) 2014 , Henry W
@@ -6,7 +9,6 @@
 ;; https://www.github.com/Henryws/Neon-Blood
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
-;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 
 ;; This program is free software: you can redistribute it and/or modify
@@ -40,7 +42,7 @@
        (bg4 "#5e5866")
        (key2 "#54ffff")
        (key3 "#19e0df")
-       (builtin "#ff00e3")
+       (builtin "#FF0000")
        (keyword "#00ffff")
        (const   "#00ff39")
        (comment "#89BBFD")
