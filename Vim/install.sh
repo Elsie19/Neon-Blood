@@ -15,7 +15,7 @@ if [[ $arch = v ]]; then
         fi
     fi
 else
-   [ ! -d ~/.config/nvim/colors ]; then
+    if [ ! -d ~/.config/nvim/colors ]; then
     mkdir -p ~/.config/nvim/colors;
     cd ~/.config/nvim/colors
         https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
@@ -26,4 +26,5 @@ else
         else
             exit 0
         fi
+     fi
 fi
