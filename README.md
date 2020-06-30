@@ -1,5 +1,7 @@
 # Neon-Blood
-This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope to make a theme available for everything you could want!
+This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope to make a theme available for everything you could want! 
+
+### [Sreenshots](https://github.com/Henryws/Neon-Blood/blob/master/screenshots/README.md#alacritty)
 
 ## Install for Alacritty:
 ```bash
