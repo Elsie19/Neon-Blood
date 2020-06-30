@@ -59,7 +59,7 @@
   <style name="def:number" foreground="#FFE300"/>
   <style name="def:floating-point" foreground="black"/>
   <style name="def:keyword" foreground="blue"/>
-  <style name="def:builtin" foreground="purpl" bold="true"/>
+  <style name="def:builtin" foreground="purple" bold="true"/>
   <style name="def:variable" foreground="black"/>
 
 <!-- Identifiers -->
