@@ -20,7 +20,7 @@ wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/inst
 ```
 ## Install for Gedit
 ```ruby
-sudo -qO- wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
+sudo wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
 ```
 ## Install for Gnome Terminal
 ```ruby
