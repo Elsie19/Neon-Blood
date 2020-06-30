@@ -1,19 +1,19 @@
 #!/bin/bash
 echo "enter y or n for each app" && echo ""
-echo "Alacritty"
-read alacritty
-echo "Emacs"
-read emacs
-echo "Gedit"
-read gedit
-echo "Gnome-Terminal"
-read gnometerminal
-echo "Termite"
-read termite
-echo "Vim/NVim"
-read VIM
-echo "Xresources"
-read xresources
+printf "Alacritty"
+read -r alacritty
+printf "Emacs"
+read -r emacs
+printf "Gedit"
+read -r gedit
+printf "Gnome-Terminal"
+read -r gnometerminal
+printf "Termite"
+read -r termite
+printf "Vim/NVim"
+read -r VIM
+printf "Xresources"
+read -r xresources
 
 if [[ $alacritty = y ]] ; then
     wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
