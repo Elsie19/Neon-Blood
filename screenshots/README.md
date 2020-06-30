@@ -3,6 +3,9 @@
 ## Alacritty
 <h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Alacritty.png" alt="" /></h3>
 
+## Emacs
+<h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Emacs.png" alt="" /></h3>
+
 ## Gedit
 <h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Gedit.png" alt="" /></h3>
 
