@@ -13,7 +13,7 @@ sudo wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/inst
 ```
 ## Install for Gnome Terminal
 ```bash
-wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
+wget -O- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
 ```
 ## Install for Termite
 ```bash
