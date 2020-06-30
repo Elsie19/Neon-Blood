@@ -1,5 +1,5 @@
 # Neon-Blood
-A multi-platform colorscheme
+This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope to make a theme available for everything you could want!
 
 ## Install for Alacritty:
 ```bash
