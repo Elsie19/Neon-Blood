@@ -25,7 +25,7 @@
   <color name="red" value="#FF0000"/>
   <color name="green" value="#7EFF00"/>
   <color name="yellow" value="#FFE300"/>
-  <color name="blue" value="#007BFF"/>
+  <color name="blue" value="#00ffff"/>
   <color name="purple" value="#FF00E3"/>
   <color name="cyan" value="#00FFFF"/>
   <color name="background" value="#322B3C"/>
@@ -59,7 +59,7 @@
   <style name="def:number" foreground="#FFE300"/>
   <style name="def:floating-point" foreground="black"/>
   <style name="def:keyword" foreground="blue"/>
-  <style name="def:builtin" foreground="purple" bold="true"/>
+  <style name="def:builtin" foreground="purpl" bold="true"/>
   <style name="def:variable" foreground="black"/>
 
 <!-- Identifiers -->
