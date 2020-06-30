@@ -1,5 +1,5 @@
 #!/bin/bash
-enter "y or n for each app" && echo ""
+echo "enter y or n for each app" && echo ""
 echo "Alacritty"
 read alacritty
 echo "Emacs"
