@@ -1,8 +1,8 @@
 ;;; Neon-Blood-theme.el --- Theme 
 
-;; Copyright (C) 2020 , Henry W
+;; Copyright (C) 2020 , Henry WS
 
-;; Author: Henry W
+;; Author: Henry WS
 ;; Version: 0.1
 ;; Package-Requires: ((emacs "24"))
 ;; Created with ThemeCreator, https://github.com/mswift42/themecreator.
@@ -29,22 +29,22 @@
 
  (deftheme Neon-Blood)
  (let ((class '((class color) (min-colors 89)))
-       (fg1 "#FFFFFF")
+       (fg1 "#ffffff")
        (fg2 "#ebebeb")
        (fg3 "#d6d6d6")
        (fg4 "#c2c2c2")
-       (bg1 "#322B3C")
+       (bg1 "#322b3c")
        (bg2 "#423c4c")
        (bg3 "#534d5b")
        (bg4 "#635e6b")
-       (builtin "#FF00E3")
-       (keyword "#00ffff")
-       (const   "#007BFF")
-       (comment "#89BBFD")
-       (func    "#FF0000")
-       (str     "#FFE300")
-       (type    "#ff00e3")
-       (var     "#FFE300")
+       (builtin "#ffffff")
+       (keyword "#ffe300")
+       (const   "#7eff00")
+       (comment "#89bbfd")
+       (func    "#007bff")
+       (str     "#ffe300")
+       (type    "#ff0000")
+       (var     "#ff0000")
        (warning "#ff0000")
        (warning2 "#ff8800"))
    (custom-theme-set-faces
