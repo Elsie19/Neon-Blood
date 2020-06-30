@@ -1,9 +1,9 @@
 
 
 
-;;; Neon-Blood-theme.el --- Emacs theme with a dark background.
+;;; Neon-Blood-theme.el --- A unified Emacs theme
 
-;; Copyright (C) 2014 , Henry W
+;; Henry W
 
 ;; Author: Henry W
 ;; https://www.github.com/Henryws/Neon-Blood
