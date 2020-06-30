@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Copyright (C) 2006-2007 Will Farrington <wcfarrington@gmail.com>
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ You should have received a copy of the GNU Library General Public
+ License along with this library; if not, write to the
+ Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+ Boston, MA 02111-1307, USA.
+-->
+<style-scheme id="Neon-Blood" _name="Neon Blood" version="1.0">
+    <author>Henry W</author>
+  <_description>A unified Dark theme for Gedit</_description>
+
+<!-- Colors -->
+
+  <color name="white" value="#FFFFFF"/>
+  <color name="black" value="#322B3C"/>
+  <color name="red" value="#FF0000"/>
+  <color name="green" value="#7EFF00"/>
+  <color name="yellow" value="#FFE300"/>
+  <color name="blue" value="#007BFF"/>
+  <color name="purple" value="#FF00E3"/>
+  <color name="cyan" value="#00FFFF"/>
+  <color name="background" value="#322B3C"/>
+  <color name="forground" value="#FFFFFF"/>
+  <color name="current-line" value="#08041c"/>
+
+<!-- Global Settings -->
+
+  <style name="text" foreground="forground" background="background"/>
+  <style name="cursor" foreground="purple"/>
+  <style name="current-line" background="current-line"/>
+  <style name="line-numbers" foreground="white" background="background"/>
+  <style name="selection" background="#2D1F3A"/>
+
+<!-- Bracket Matching -->
+  <style name="bracket-match" background="blue"/>
+  <style name="bracket-mismatch" background="red" bold="true"/>
+  <style name="search-match" foreground="white" background="purple"/>
+
+<!-- Comments -->
+  <style name="def:comment" foreground="#89BBFD"/>
+  <style name="def:shebang" foreground="red"/>
+  <style name="def:doc-comment-element" foreground="current-line" bold="true"/>
+
+<!-- Constants and Variables-->
+  <style name="def:constant" foreground="black"/>
+  <style name="def:string" foreground="#FFE300"/>
+  <style name="def:special-char" foreground="#FFE300"/>
+  <style name="def:special-constant" foreground="#7eff00" bold="true"/>
+  <style name="def:boolean" foreground="#FF00E3"/>
+  <style name="def:number" foreground="#FFE300"/>
+  <style name="def:floating-point" foreground="black"/>
+  <style name="def:keyword" foreground="#7EFF00"/>
+  <style name="def:builtin" foreground="purpl" bold="true"/>
+  <style name="def:variable" foreground="black"/>
+
+<!-- Identifiers -->
+  <style name="def:identifier" foreground="red"/>
+
+<!-- Statements -->
+  <style name="def:statement" foreground="#00FFFF"/>
+
+<!-- Types -->
+  <style name="def:type" foreground="red"/>
+
+<!-- Others -->
+  <style name="def:error" foreground="white" background="red" bold="true"/>
+  <style name="def:note" foreground="#89BBFD" bold="true"/>
+  <style name="def:net-address-in-comment" foreground="blue" italic="false" underline="true"/>
+  <style name="def:preprocessor" color="red"/>
+
+<!-- Unknown? -->
+  <style name="def:specials" background="#FFE300"/>
+
+<!-- C Styles -->
+  <style name="c:preprocessor" map-to="def:special-char"/>
+
+<!-- Diff Styles -->
+  <style name="diff:ignore" foreground="#FFE300"/>
+
+<!-- Ruby Styles -->
+  <style name="ruby:module-handler" foreground="purple"/>
+  <style name="ruby:symbol" foreground="black"/>
+  <style name="ruby:regex" foreground="green"/>
+
+<!-- SH Styles -->
+  <style name="sh:others" map-to="text"/>
+
+<!-- XML Styles -->
+  <style name="xml:attribute-name" foreground="red"/>
+  <style name="xml:element-name" foreground="#FFE300"/>
+
+</style-scheme>
+
