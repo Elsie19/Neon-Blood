@@ -1,3 +1,3 @@
 # Screenshots
 ### Xresources
-<h3><img src="github.com/Henryws/Neon-Blood/screenshots/Neon-Blood-Xresources.png" alt="" /></h3>
+<h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Xresources.png" alt="" /></h3>
