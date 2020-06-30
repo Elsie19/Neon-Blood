@@ -7,6 +7,11 @@ This is my take on a [Dracula](https://github.com/dracula/) counterpart. I hope 
 ```bash
 wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
 ```
+## Install for (DOOM)Emacs
+```bash
+wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
+```
+
 ## Install for Gedit
 ```bash
 sudo wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
