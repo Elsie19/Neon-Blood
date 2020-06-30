@@ -5,9 +5,8 @@
 
 ;; Author: Henry W
 ;; https://www.github.com/Henryws/Neon-Blood
-;; Version: 0.1
+;; Version: 1.0
 ;; Package-Requires: ((emacs "24"))
-;; Created with emacs-theme-generator, https://github.com/mswift42/theme-creator.
 
 
 ;; This program is free software: you can redistribute it and/or modify
