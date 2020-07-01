@@ -2,7 +2,7 @@
 echo "enter y or n for each app" && echo ""
 read -p "Alacritty " alacritty
 if [[ "$alacritty" = y ]] ; then
-    curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
+    wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
     exit
 fi
 read -p "Emacs " emacs
