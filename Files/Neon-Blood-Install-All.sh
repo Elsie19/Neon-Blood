@@ -3,7 +3,6 @@ echo "enter y or n for each app" && echo ""
 read -p "Alacritty " alacritty
 if [[ "$alacritty" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
-    exit 0
 fi
 read -p "Emacs " emacs
 if [[ "$emacs" = y ]] ; then
@@ -13,40 +12,33 @@ if [[ "$emacs" = y ]] ; then
     echo "(setq doom-theme 'Neon-Blood)" && echo ""
     echo "Append or edit this part in your Emacs config:" && echo ""
     echo "(load-theme 'Neon-Blood t)"
-    exit 0
 fi
 read -p "Gedit " gedit
 read -r gedit
 if [[ "$gedit" = y ]] ; then
     sudo wget -O /usr/share/gtksourceview-3.0/styles/Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
-    exit 0
 fi
 read -p "Gnome Terminal " gnometerminal
 if [[ "$gnometerminal" = y ]] ; then
     wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
-    exit 0
 fi
 read -p "Termite " termite
 if [[ "$termite" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Termite.txt >> ~/.config/termite/config
-    exit 0
 fi
 read -p "Vim " VIM
 if [[ "$VIM" = y ]] ; then
     mkdir -p ~/.vim/colors;
     cd ~/.vim/colors && wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
-    exit 0
 fi
 read -p "Neovim " NVIM
 if [[ "$NVIM" = y ]] ; then
     mkdir -p ~/.config/nvim/colors;
     cd ~/.config/nvim/colors && wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
-    exit 0
 fi
 read -p "Xresources " xresources
 if [[ "$xresources" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Xresources.txt >> ~/.Xresources
-    exit 0
 fi
 echo "Done!"
 if [[ $? -eq 1 ]] ; then
