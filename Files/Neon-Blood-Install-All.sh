@@ -17,7 +17,8 @@ fi
 read -p "Gedit " gedit
 read -r gedit
 if [[ "$gedit" = y ]] ; then
-    sudo wget -O /usr/share/gtksourceview-3.0/styles/Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
+    cd /usr/share/gtksourceview-3.0/styles/
+    sudo wget -O Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
 fi
 read -p "Gnome Terminal " gnometerminal
 if [[ "$gnometerminal" = y ]] ; then
