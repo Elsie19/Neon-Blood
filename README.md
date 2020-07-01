@@ -15,7 +15,7 @@ curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty
 ```bash
 wget https://github.com/Henryws/Neon-Blood/raw/master/Files/neon--blood--atom-syntax.tar.xz && tar -xf neon--blood--atom-syntax.tar.xz && cd neon--blood--atom-syntax && apm install
 ```
-## Install for (DOOM)Emacs
+## Install for Emacs
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
 ```
