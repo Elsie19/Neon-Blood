@@ -35,6 +35,10 @@ curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt
 ```bash
 sudo wget -q -P /usr/share/konsole https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.colorscheme
 ```
+## Install for Lightline (Vim/Neovim)
+```bash
+
+```
 ## Install for Termite
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
