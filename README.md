@@ -7,8 +7,9 @@ A universal theme so you don't have to use your computer un-unified. I hope to m
 Go to the [Files](https://github.com/Henryws/Neon-Blood/tree/master/Files) directory and download the correct theme for your app
 
 ## Install for Alacritty:
+Replace colors with output of the command below
 ```ruby
-wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
+curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt
 ```
 ## Install for (DOOM)Emacs
 ```ruby
