@@ -13,7 +13,7 @@ curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty
 ```
 ## Install for Atom
 ```bash
-wget https://github.com/Henryws/Neon-Blood/raw/master/Files/neon--blood--atom-syntax.tar.xz && tar -xf neon--blood--atom-syntax.tar.xz && cd neon--blood--atom-syntax && apm install
+wget https://github.com/Henryws/Neon-Blood/raw/master/Files/Neon-Blood-atom-syntax.tar.xz && tar -xf Neon-Blood-atom-syntax.tar.xz && cd Neon-Blood-atom-syntax && npm install
 ```
 ## Install for Emacs
 ```bash
