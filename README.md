@@ -33,7 +33,7 @@ curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt
 ```
 ## Install for Konsole
 ```bash
-sudo wget -P /usr/share/konsole https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.colorscheme
+sudo wget -q -P /usr/share/konsole https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.colorscheme
 ```
 ## Install for Termite
 ```bash
