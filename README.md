@@ -16,7 +16,7 @@ wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/inst
 ```
 ## Install for Gedit
 ```ruby
-sudo wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit/install.sh | bash
+cd /usr/share/gtksourceview-3.0/styles && wget -O Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
 ```
 ## Install for Gnome Terminal
 ```ruby
