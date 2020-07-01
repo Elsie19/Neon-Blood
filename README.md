@@ -22,6 +22,10 @@ sudo wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Gedit
 ```ruby
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
 ```
+## Install for Kitty
+```ruby
+curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt >> ~/.config/kitty/kitty.conf
+```
 ## Install for Termite
 ```ruby
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
