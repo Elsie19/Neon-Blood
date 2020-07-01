@@ -58,7 +58,7 @@
   <style name="def:boolean" foreground="#FF00E3"/>
   <style name="def:number" foreground="#FFE300"/>
   <style name="def:floating-point" foreground="black"/>
-  <style name="def:keyword" foreground="blue"/>
+  <style name="def:keyword" foreground="#FFE300"/>
   <style name="def:builtin" foreground="purple" bold="true"/>
   <style name="def:variable" foreground="black"/>
 
@@ -69,7 +69,7 @@
   <style name="def:statement" foreground="#00FFFF"/>
 
 <!-- Types -->
-  <style name="def:type" foreground="red"/>
+  <style name="def:type" foreground="red" bold="true"/>
 
 <!-- Others -->
   <style name="def:error" foreground="white" background="red" bold="true"/>
