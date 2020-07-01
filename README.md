@@ -1,5 +1,5 @@
 # Neon-Blood
-A universal theme so you don't have to use your computer un-unified. I hope to make a theme available for everything you could want! 
+A universal theme so you don't have to use your computer with colorschemes every which way. I hope to make a theme available for everything you could want! 
 
 ### [Sreenshots](https://github.com/Henryws/Neon-Blood/blob/master/screenshots/README.md#alacritty)
 
