@@ -1,5 +1,8 @@
 # Screenshots
 
+## Atom
+<h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Atom.png" alt="" /></h3>
+
 ## Alacritty
 <h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Alacritty.png" alt="" /></h3>
 
