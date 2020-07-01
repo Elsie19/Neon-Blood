@@ -6,10 +6,6 @@ A universal theme so you don't have to use your computer un-unified. I hope to m
 ## Install manually
 Go to the [Files](https://github.com/Henryws/Neon-Blood/tree/master/Files) directory and download the correct theme for your app
 
-## Auto Install
-```ruby
-wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-Install-All.sh | bash
-```
 ## Install for Alacritty:
 ```ruby
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Alacritty/install.sh | bash
