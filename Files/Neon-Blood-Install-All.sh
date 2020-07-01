@@ -1,4 +1,5 @@
 #!/bin/bash
+############################################# !EXPERIMENTAL SCRIPT! ###############################################################################################
 echo "enter y or n for each app" && echo ""
 read -p "Emacs " emacs
 if [[ "$emacs" = y ]] ; then
