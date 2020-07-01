@@ -31,6 +31,10 @@ wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnom
 ```bash
 curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt >> ~/.config/kitty/kitty.conf
 ```
+## Install for Konsole
+```bash
+sudo wget -P /usr/share/konsole https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.colorscheme
+```
 ## Install for Termite
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
