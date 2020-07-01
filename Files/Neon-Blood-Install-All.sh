@@ -1,10 +1,5 @@
 #!/bin/bash
 echo "enter y or n for each app" && echo ""
-read -p "Alacritty " alacritty
-if [[ "$alacritty" = y ]] ; then
-    curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
-    exit
-fi
 read -p "Emacs " emacs
 if [[ "$emacs" = y ]] ; then
     mkdir -p ~/.emacs.d/themes
@@ -41,6 +36,10 @@ fi
 read -p "Xresources " xresources
 if [[ "$xresources" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Xresources.txt >> ~/.Xresources
+fi
+read -p "Alacritty " alacritty
+if [[ "$alacritty" = y ]] ; then
+    curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
 fi
 echo "Done!"
 if [[ $? -eq 1 ]] ; then
