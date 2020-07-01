@@ -1,13 +1,11 @@
 #!/bin/bash
 echo "enter y or n for each app" && echo ""
-printf "Alacritty"
-read -r alacritty
+read -p "Alacritty " alacritty
 if [[ "$alacritty" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt >> ~/.config/alacritty/alacritty.yml
     exit 0
 fi
-printf "Emacs"
-read -r emacs
+read -p "Emacs " emacs
 if [[ "$emacs" = y ]] ; then
     mkdir -p ~/.emacs.d/themes
     wget -O ~/.emacs.d/themes/Neon-Blood-theme.el https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-theme.el
@@ -17,40 +15,35 @@ if [[ "$emacs" = y ]] ; then
     echo "(load-theme 'Neon-Blood t)"
     exit 0
 fi
-printf "Gedit"
+read -p "Gedit " gedit
 read -r gedit
 if [[ "$gedit" = y ]] ; then
     sudo wget -O /usr/share/gtksourceview-3.0/styles/Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
     exit 0
 fi
-printf "Gnome-Terminal"
-read -r gnometerminal
+read -p "Gnome Terminal " gnometerminal
 if [[ "$gnometerminal" = y ]] ; then
     wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
     exit 0
 fi
-printf "Termite"
-read -r termite
+read -p "Termite " termite
 if [[ "$termite" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Termite.txt >> ~/.config/termite/config
     exit 0
 fi
-printf "Vim"
-read -r VIM
+read -p "Vim " VIM
 if [[ "$VIM" = y ]] ; then
     mkdir -p ~/.vim/colors;
     cd ~/.vim/colors && wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
     exit 0
 fi
-printf "NVim"
-read -r NVIM
+read -p "Neovim " NVIM
 if [[ "$NVIM" = y ]] ; then
     mkdir -p ~/.config/nvim/colors;
     cd ~/.config/nvim/colors && wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/Neon-Blood.vim
     exit 0
 fi
-printf "Xresources"
-read -r xresources
+read -p "Xresources " xresources
 if [[ "$xresources" = y ]] ; then
     curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Xresources.txt >> ~/.Xresources
     exit 0
