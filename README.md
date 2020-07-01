@@ -47,6 +47,10 @@ wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/in
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
 ```
+## Install for Xfce Terminal
+```bash
+sudo wget -q -P /usr/share/xfce4/terminal/colorschemes https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.theme
+```
 ## Install for Xresources
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Xresources/install.sh | bash
