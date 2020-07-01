@@ -11,6 +11,10 @@ Replace colors with output of the command below
 ```ruby
 curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt
 ```
+## Install for Atom
+```ruby
+wget https://github.com/Henryws/Neon-Blood/raw/master/Files/neon--blood--atom-syntax.tar.xz && tar -xf neon--blood--atom-syntax.tar.xz && cd neon--blood--atom-syntax && apm install
+```
 ## Install for (DOOM)Emacs
 ```ruby
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
