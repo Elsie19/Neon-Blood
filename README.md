@@ -28,7 +28,7 @@ cd /usr/share/gtksourceview-3.0/styles && wget -O Neon-Blood-gedit.xml https://r
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
 ```
 ## Install for Firefox (may not be available yet)
-addons.mozilla.org/en-US/firefox/addon/neon-blood/
+[addons.mozilla.org/en-US/firefox/addon/neon-blood](https://addons.mozilla.org/en-US/firefox/addon/neon-blood/)
 ## Install for Kitty
 ```bash
 curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt >> ~/.config/kitty/kitty.conf
