@@ -37,7 +37,7 @@ sudo wget -q -P /usr/share/konsole https://raw.githubusercontent.com/Henryws/Neo
 ```
 ## Install for Lightline (Vim/Neovim)
 ```bash
-
+wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/lightline/install.sh | bash
 ```
 ## Install for Termite
 ```bash
