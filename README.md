@@ -8,38 +8,38 @@ Go to the [Files](https://github.com/Henryws/Neon-Blood/tree/master/Files) direc
 
 ## Install for Alacritty:
 Replace colors with output of the command below
-```ruby
+```bash
 curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Alacritty.txt
 ```
 ## Install for Atom
-```ruby
+```bash
 wget https://github.com/Henryws/Neon-Blood/raw/master/Files/neon--blood--atom-syntax.tar.xz && tar -xf neon--blood--atom-syntax.tar.xz && cd neon--blood--atom-syntax && apm install
 ```
 ## Install for (DOOM)Emacs
-```ruby
+```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Emacs/install.sh | bash
 ```
 ## Install for Gedit
-```ruby
+```bash
 cd /usr/share/gtksourceview-3.0/styles && wget -O Neon-Blood-gedit.xml https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood-gedit.xml
 ```
 ## Install for Gnome Terminal
-```ruby
+```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Gnome-Terminal.sh | bash
 ```
 ## Install for Kitty
-```ruby
+```bash
 curl https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/kitty.txt >> ~/.config/kitty/kitty.conf
 ```
 ## Install for Termite
-```ruby
+```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
 ```
 ## Install for (N)Vim
-```ruby
+```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
 ```
 ## Install for Xresources
-```ruby
+```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Xresources/install.sh | bash
 ```
