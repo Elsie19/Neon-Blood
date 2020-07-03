@@ -18,6 +18,9 @@
 ## Lightline
 <h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Lightline.png" alt="" /></h3>
 
+## Terminal.app
+<h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Terminaldotapp.png" alt="" /></h3>
+
 ## Termite
 <h3><img src="https://github.com/Henryws/Neon-Blood/raw/master/screenshots/Neon-Blood-Termite.png" alt="" /></h3>
 
