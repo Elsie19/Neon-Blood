@@ -45,6 +45,11 @@ wget https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/lightline/i
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Termite/install.sh | bash
 ```
+## Install for Terminal.app
+Run the command below and double click the `Neon-Blood.terminal` file
+```bash
+curl -O https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Files/Neon-Blood.terminal
+```
 ## Install for (N)Vim
 ```bash
 wget -qO- https://raw.githubusercontent.com/Henryws/Neon-Blood/master/Vim/install.sh | bash
